@@ -8,7 +8,7 @@ const riviera = ['The Reaches Condominium Association']
 
 const daniaBeach = ['Cortland Hollywood', 'Wyndham Gardens']
 
-const daytona= ['Daytona Gardens Apartments', 'Ormond Beach']
+const daytona = ['Daytona Gardens Apartments', 'Ormond Beach']
 
 const fortLauderdale = ['Los Olas by the River', 'The Waverly at Los Olos']
 

@@ -1,8 +1,25 @@
+// function generateSchedule(timeSlots) {
+//   const schedule = new Array(24).fill(0);
+//   for (const timeSlot of timeSlots) {
+//     const { hour, guards } = timeSlot;
+//     for (const guard of guards) {
+//       const { type, count } = guard;
+//       if (schedule[hour]) {
+//         schedule[hour][type] += count;
+//       } else {
+//         schedule[hour] = { [type]: count };
+//       }
+//     }
+//   }
+//   return schedule;
+// }
+
 function generateSchedule(timeSlots) {
   const schedule = new Array(24).fill(0);
-  for (const timeSlot of timeSlots) {
-    const { hour, guards } = timeSlot;
-    for (const guard of guards) {
+  for (let i = 0; i < timeSlots.length; i++) {
+    const hourGuards = timeSlots[i];
+    const hour = i % 24;
+    for (const guard of hourGuards) {
       const { type, count } = guard;
       if (schedule[hour]) {
         schedule[hour][type] += count;
@@ -14,13 +31,13 @@ function generateSchedule(timeSlots) {
   return schedule;
 }
 
-const locations = {
+export const locations = {
   "West Palm Beach": [
     {
       name: "KFC- Blue Heron",
-      random : false,
+      random: false,
       schedule: generateSchedule([
-        [], // 12:00am - 1:00am (no guards)
+        [{ type: "D", count: 1 }, { type: "G", count: 2 }], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
         [], // 2:00am - 3:00am (no guards)
         [], // 3:00am - 4:00am (no guards)
@@ -2105,3 +2122,7 @@ const locations = {
   ],
   // Add more areas and their location objects as needed
 };
+
+export const locationsArray = Object.keys(locations)
+
+
