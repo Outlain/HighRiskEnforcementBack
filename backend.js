@@ -16,7 +16,6 @@ function generateSchedule(timeSlots) {
 
 const locations = {
   "West Palm Beach": [
-
     {
       name: "KFC- Blue Heron",
       schedule: generateSchedule([
@@ -1207,6 +1206,834 @@ const locations = {
       ]),
     },
     // Add more location objects for West Palm Beach as needed
+  ],
+  "pompano": [
+    {
+      name: "Beacon Recovery Center",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+    {
+      name: "City Vista",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+    {
+      name: "Grand Villa of Deerfield Beach",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+    {
+      name: "Parliament House Condominiums ",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+    {
+      name: "The Wittington Condo",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "orlando": [
+    {
+      name: "Cortland Nona",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+    {
+      name: "Crossroads Apartments",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+    {
+      name: "Hyatt House Orlando",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+
+  "riviera": [
+
+    {
+      name: "The Reaches Condominium Association",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "daniaBeach": [
+    {
+      name: "Cortland Hollywood",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+    {
+      name: "Wyndham Gardens",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "daytona": [
+    {
+      name: "Daytona Gardens Apartments",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+    {
+      name: "Ormond Beach",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "fortLauderdale": [
+
+    {
+      name: "Los Olas by the River",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+    {
+      name: "The Waverly at Los Olos",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "forPierce": [
+
+    {
+      name: "Pine Creek Village Apartments",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "gainsville": [
+
+    {
+      name: "Majestic Oaks Apartments",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "miami": [
+
+    {
+      name: "Lincoln Fields Apartments",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+    {
+      name: "Yard 8 Midtown Cortland ",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "ocala": [
+
+    {
+      name: "Berkeley Pointe Apartments ",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+    {
+      name: "Hickory Knoll",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "palmBay": [
+
+    {
+      name: "Hilton/Hyatt Place (Palm Bay)",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "pinellas": [
+
+    {
+      name: "Cortland Satori",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "plantation": [
+
+    {
+      name: "Cortland Satori",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "sanford": [
+
+    {
+      name: "Seminole Gardens Apartments ",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "tallahassee": [
+
+    {
+      name: "Sunrise Place Apartments ",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
+  ],
+  "westBoca": [
+
+    {
+      name: "Chabad of Weston",
+      schedule: generateSchedule([
+        [], // 12:00am - 1:00am (no guards)
+        [], // 1:00am - 2:00am (no guards)
+        [], // 2:00am - 3:00am (no guards)
+        [], // 3:00am - 4:00am (no guards)
+        [], // 4:00am - 5:00am (no guards)
+        [], // 5:00am - 6:00am (no guards)
+        [], // 6:00am - 7:00am (no guards)
+        [], // 7:00am - 8:00am (no guards)
+        [], // 8:00am - 9:00am (no guards)
+        [], // 9:00am - 10:00am (no guards)
+        [], // 10:00am - 11:00am (no guards)
+        [], // 11:00am - 12:00pm (no guards)
+        [], // 12:00pm - 1:00pm (no guards)
+        [], // 1:00pm - 2:00pm (no guards)
+        [], // 2:00pm - 3:00pm (no guards)
+        [], // 3:00pm - 4:00pm (no guards)
+        [], // 4:00pm - 5:00pm (no guards)
+        [], // 5:00pm - 6:00pm (no guards)
+        [], // 6:00pm - 7:00pm (no guards)
+        [], // 7:00pm - 8:00pm (no guards)
+        [], // 8:00pm - 9:00pm (no guards)
+        [], // 9:00pm - 10:00pm (no guards)
+        [], // 10:00pm - 11:00pm (no guards)
+        [], // 11:00pm - 12:00am (no guards)
+      ]),
+    },
   ],
   // Add more areas and their location objects as needed
 };
