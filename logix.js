@@ -20,7 +20,6 @@ const miami = ['Lincoln Fields Apartments', 'Yard 8 Midtown Cortland ']
 
 const ocala = ['Berkeley Pointe Apartments ', 'Hickory Knoll']
 
-
 const palmBay = ['Hilton/Hyatt Place (Palm Bay)']
 
 const pinellas = ['Cortland Satori']
