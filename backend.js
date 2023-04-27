@@ -18,6 +18,7 @@ const locations = {
   "West Palm Beach": [
     {
       name: "KFC- Blue Heron",
+      random : false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -47,6 +48,7 @@ const locations = {
     },
     {
       name: "KFC- Broadway",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -76,6 +78,7 @@ const locations = {
     },
     {
       name: "KFC- Palm Beach",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -105,6 +108,7 @@ const locations = {
     },
     {
       name: "Homewood/Spring Hill Suites by Hilton",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -134,6 +138,7 @@ const locations = {
     },
     {
       name: "Holiday Inn",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -163,6 +168,7 @@ const locations = {
     },
     {
       name: "Grand Villa of Boynton Beach",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -192,6 +198,7 @@ const locations = {
     },
     {
       name: "Dillman Farms PARKING ENFORCEMENT",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -221,6 +228,7 @@ const locations = {
     },
     {
       name: "Cross Creek Condominiums",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -250,6 +258,7 @@ const locations = {
     },
     {
       name: "Cortland Portofino Place",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -279,6 +288,7 @@ const locations = {
     },
     {
       name: "City Side Condominiums ROVER",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -308,6 +318,7 @@ const locations = {
     },
     {
       name: "City Side Condominiums POOL",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -337,6 +348,7 @@ const locations = {
     },
     {
       name: "City Side Condominiums GATEHOUSE",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -366,6 +378,7 @@ const locations = {
     },
     {
       name: "Chabad Palm Beach Island",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -395,6 +408,7 @@ const locations = {
     },
     {
       name: "Chabad of West Palm Beach",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -424,6 +438,7 @@ const locations = {
     },
     {
       name: "Chabad of West Boca",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -453,6 +468,7 @@ const locations = {
     },
     {
       name: "Chabad of Lake Worth",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -482,6 +498,7 @@ const locations = {
     },
     {
       name: "Chabad of Palm Beach Island",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -511,6 +528,7 @@ const locations = {
     },
     {
       name: "Casa Del Monte",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -540,6 +558,7 @@ const locations = {
     },
     {
       name: "1236 PLAZA",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -569,6 +588,7 @@ const locations = {
     },
     {
       name: "300",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -598,6 +618,7 @@ const locations = {
     },
     {
       name: "Canopy By Hilton",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -627,6 +648,7 @@ const locations = {
     },
     {
       name: "LaFonta Apts of Palm Beach Inc",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -656,6 +678,7 @@ const locations = {
     },
     {
       name: "Lake Mangonia Apartments",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -685,6 +708,7 @@ const locations = {
     },
     {
       name: "Lakeside Mobile Home Park",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -714,6 +738,7 @@ const locations = {
     },
     {
       name: "MAIN OFFICE",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -743,6 +768,7 @@ const locations = {
     },
     {
       name: "Mar-a-Lago Club",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -772,6 +798,7 @@ const locations = {
     },
     {
       name: "Mayfair House",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -801,6 +828,7 @@ const locations = {
     },
     {
       name: "Mt. Zion Missionary Baptist Church",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -830,6 +858,7 @@ const locations = {
     },
     {
       name: "Palm Beach Mobile Home Park",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -859,6 +888,7 @@ const locations = {
     },
     {
       name: "Palm Beach Muslim Community",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -888,6 +918,7 @@ const locations = {
     },
     {
       name: "Pickwick Mobile Home Park ",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -917,6 +948,7 @@ const locations = {
     },
     {
       name: "Pine Ridge North lll PARKING ENFORCEMENT",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -946,6 +978,7 @@ const locations = {
     },
     {
       name: "Presidential Golf View",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -975,6 +1008,7 @@ const locations = {
     },
     {
       name: "Sams Market",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1004,6 +1038,7 @@ const locations = {
     },
     {
       name: "St Andrews Palm Beach",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1033,6 +1068,7 @@ const locations = {
     },
     {
       name: "Taco Bell",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1062,6 +1098,7 @@ const locations = {
     },
     {
       name: "The Groves of Westlake",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1091,6 +1128,7 @@ const locations = {
     },
     {
       name: "The Hammocks of Westlake PARKING ENFORCEMENT",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1120,6 +1158,7 @@ const locations = {
     },
     {
       name: "The Meadows of Westlake PARKING ENFORCEMENT",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1149,6 +1188,7 @@ const locations = {
     },
     {
       name: "Tideline",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1178,6 +1218,7 @@ const locations = {
     },
     {
       name: "U Gas",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1210,6 +1251,7 @@ const locations = {
   "pompano": [
     {
       name: "Beacon Recovery Center",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1239,6 +1281,7 @@ const locations = {
     },
     {
       name: "City Vista",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1268,6 +1311,7 @@ const locations = {
     },
     {
       name: "Grand Villa of Deerfield Beach",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1297,6 +1341,7 @@ const locations = {
     },
     {
       name: "Parliament House Condominiums ",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1326,6 +1371,7 @@ const locations = {
     },
     {
       name: "The Wittington Condo",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1357,6 +1403,7 @@ const locations = {
   "orlando": [
     {
       name: "Cortland Nona",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1386,6 +1433,7 @@ const locations = {
     },
     {
       name: "Crossroads Apartments",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1415,6 +1463,7 @@ const locations = {
     },
     {
       name: "Hyatt House Orlando",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1448,6 +1497,7 @@ const locations = {
 
     {
       name: "The Reaches Condominium Association",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1479,6 +1529,7 @@ const locations = {
   "daniaBeach": [
     {
       name: "Cortland Hollywood",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1508,6 +1559,7 @@ const locations = {
     },
     {
       name: "Wyndham Gardens",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1539,6 +1591,7 @@ const locations = {
   "daytona": [
     {
       name: "Daytona Gardens Apartments",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1568,6 +1621,7 @@ const locations = {
     },
     {
       name: "Ormond Beach",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1600,6 +1654,7 @@ const locations = {
 
     {
       name: "Los Olas by the River",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1629,6 +1684,7 @@ const locations = {
     },
     {
       name: "The Waverly at Los Olos",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1661,6 +1717,7 @@ const locations = {
 
     {
       name: "Pine Creek Village Apartments",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1693,6 +1750,7 @@ const locations = {
 
     {
       name: "Majestic Oaks Apartments",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1725,6 +1783,7 @@ const locations = {
 
     {
       name: "Lincoln Fields Apartments",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1754,6 +1813,7 @@ const locations = {
     },
     {
       name: "Yard 8 Midtown Cortland ",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1786,6 +1846,7 @@ const locations = {
 
     {
       name: "Berkeley Pointe Apartments ",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1815,6 +1876,7 @@ const locations = {
     },
     {
       name: "Hickory Knoll",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1847,6 +1909,7 @@ const locations = {
 
     {
       name: "Hilton/Hyatt Place (Palm Bay)",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1879,6 +1942,7 @@ const locations = {
 
     {
       name: "Cortland Satori",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1911,6 +1975,7 @@ const locations = {
 
     {
       name: "Cortland Satori",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1943,6 +2008,7 @@ const locations = {
 
     {
       name: "Seminole Gardens Apartments ",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -1975,6 +2041,7 @@ const locations = {
 
     {
       name: "Sunrise Place Apartments ",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
@@ -2007,6 +2074,7 @@ const locations = {
 
     {
       name: "Chabad of Weston",
+      random: false,
       schedule: generateSchedule([
         [], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
