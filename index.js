@@ -19,6 +19,6 @@ app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
 app.get('/', (req, res) => {
     // GET / route handler
     res.json(
-        locationsArraygits
+        locations
     );
 });
