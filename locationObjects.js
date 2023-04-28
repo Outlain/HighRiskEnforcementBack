@@ -37,7 +37,7 @@ export const locations = {
       name: "KFC- Blue Heron",
       random: false,
       schedule: [
-        [{ D: 1, G: 1 }], // 12:00am - 1:00am (no guards)
+        [{ D: 0, G: 1 }], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
         [], // 2:00am - 3:00am (no guards)
         [], // 3:00am - 4:00am (no guards)
@@ -56,18 +56,18 @@ export const locations = {
         [], // 4:00pm - 5:00pm (no guards)
         [], // 5:00pm - 6:00pm (no guards)
         [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [{ D: 0, G: 1 }], // 7:00pm - 8:00pm (no guards)
+        [{ D: 0, G: 1 }], // 8:00pm - 9:00pm (no guards)
+        [{ D: 0, G: 1 }], // 9:00pm - 10:00pm (no guards)
+        [{ D: 0, G: 1 }], // 10:00pm - 11:00pm (no guards)
+        [{ D: 0, G: 1 }], // 11:00pm - 12:00am (no guards)
       ],
     },
     {
       name: "KFC- Broadway",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
+        [{ D: 0, G: 1 }], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
         [], // 2:00am - 3:00am (no guards)
         [], // 3:00am - 4:00am (no guards)
@@ -86,18 +86,18 @@ export const locations = {
         [], // 4:00pm - 5:00pm (no guards)
         [], // 5:00pm - 6:00pm (no guards)
         [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [{ D: 0, G: 1 }], // 7:00pm - 8:00pm (no guards)
+        [{ D: 0, G: 1 }], // 8:00pm - 9:00pm (no guards)
+        [{ D: 0, G: 1 }], // 9:00pm - 10:00pm (no guards)
+        [{ D: 0, G: 1 }], // 10:00pm - 11:00pm (no guards)
+        [{ D: 0, G: 1 }], // 11:00pm - 12:00am (no guards)
       ],
     },
     {
       name: "KFC- Palm Beach",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
+        [{ D: 0, G: 1 }], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
         [], // 2:00am - 3:00am (no guards)
         [], // 3:00am - 4:00am (no guards)
@@ -116,22 +116,22 @@ export const locations = {
         [], // 4:00pm - 5:00pm (no guards)
         [], // 5:00pm - 6:00pm (no guards)
         [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [{ D: 0, G: 1 }], // 7:00pm - 8:00pm (no guards)
+        [{ D: 0, G: 1 }], // 8:00pm - 9:00pm (no guards)
+        [{ D: 0, G: 1 }], // 9:00pm - 10:00pm (no guards)
+        [{ D: 0, G: 1 }], // 10:00pm - 11:00pm (no guards)
+        [{ D: 0, G: 1 }], // 11:00pm - 12:00am (no guards)
       ],
     },
     {
       name: "Homewood/Spring Hill Suites by Hilton",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
+        [{ D: 1, G: 0 }], // 12:00am - 1:00am (no guards)
+        [{ D: 1, G: 0 }], // 1:00am - 2:00am (no guards)
+        [{ D: 1, G: 0 }], // 2:00am - 3:00am (no guards)
+        [{ D: 1, G: 0 }], // 3:00am - 4:00am (no guards)
+        [{ D: 1, G: 0 }], // 4:00am - 5:00am (no guards)
         [], // 5:00am - 6:00am (no guards)
         [], // 6:00am - 7:00am (no guards)
         [], // 7:00am - 8:00am (no guards)
@@ -148,20 +148,20 @@ export const locations = {
         [], // 6:00pm - 7:00pm (no guards)
         [], // 7:00pm - 8:00pm (no guards)
         [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [{ D: 1, G: 0 }], // 9:00pm - 10:00pm (no guards)
+        [{ D: 1, G: 0 }], // 10:00pm - 11:00pm (no guards)
+        [{ D: 1, G: 0 }], // 11:00pm - 12:00am (no guards)
       ],
     },
     {
       name: "Holiday Inn",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
+        [{ D: 1, G: 0 }], // 12:00am - 1:00am (no guards)
+        [{ D: 1, G: 0 }], // 1:00am - 2:00am (no guards)
+        [{ D: 1, G: 0 }], // 2:00am - 3:00am (no guards)
+        [{ D: 1, G: 0 }], // 3:00am - 4:00am (no guards)
+        [{ D: 1, G: 0 }], // 4:00am - 5:00am (no guards)
         [], // 5:00am - 6:00am (no guards)
         [], // 6:00am - 7:00am (no guards)
         [], // 7:00am - 8:00am (no guards)
@@ -178,9 +178,9 @@ export const locations = {
         [], // 6:00pm - 7:00pm (no guards)
         [], // 7:00pm - 8:00pm (no guards)
         [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [{ D: 1, G: 0 }], // 9:00pm - 10:00pm (no guards)
+        [{ D: 1, G: 0 }], // 10:00pm - 11:00pm (no guards)
+        [{ D: 1, G: 0 }], // 11:00pm - 12:00am (no guards)
       ],
     },
     {
@@ -217,10 +217,10 @@ export const locations = {
       name: "Dillman Farms PARKING ENFORCEMENT",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
+        [{ D: 0, G: 1 }], // 12:00am - 1:00am (no guards)
+        [{ D: 0, G: 1 }], // 1:00am - 2:00am (no guards)
+        [{ D: 0, G: 1 }], // 2:00am - 3:00am (no guards)
+        [{ D: 0, G: 1 }], // 3:00am - 4:00am (no guards)
         [], // 4:00am - 5:00am (no guards)
         [], // 5:00am - 6:00am (no guards)
         [], // 6:00am - 7:00am (no guards)
