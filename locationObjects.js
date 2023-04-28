@@ -37,7 +37,7 @@ export const locations = {
       name: "KFC- Blue Heron",
       random: false,
       schedule: [
-        [{ D: 1 }, { G: 1 }], // 12:00am - 1:00am (no guards)
+        [{ D: 1, G: 1 }], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
         [], // 2:00am - 3:00am (no guards)
         [], // 3:00am - 4:00am (no guards)
