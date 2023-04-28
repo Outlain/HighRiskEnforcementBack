@@ -6,7 +6,6 @@ import cors from 'cors'
 import axios from "axios"
 import nodemailer from "nodemailer"
 import dotenv from 'dotenv'
-import serverless from 'ServerlessHttp'
 import ServerlessHttp from 'serverless-http';
 
 dotenv.config()
@@ -17,7 +16,7 @@ app.use(express.json());
 app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
 
 
-app.get('/something', (req, res) => {
+app.get('/', (req, res) => {
     // GET / route handler
     res.json(
         locations
