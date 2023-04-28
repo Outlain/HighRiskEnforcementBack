@@ -1,7 +1,7 @@
 {
   "name": "webscrapingpythonhighriskenforcement",
   "version": "1.0.0",
-   "type": "module",
+  "type": "module",
   "description": "",
   "main": "backendAPI.js",
   "scripts": {
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Outlain/HighRiskEnforcementBack/issues"
   },
-  "homepage": "https://github.com/Outlain/HighRiskEnforcementBack#readme"
+  "homepage": "https://github.com/Outlain/HighRiskEnforcementBack#readme",
+  "dependencies": {
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
+  }
 }

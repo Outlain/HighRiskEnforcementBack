@@ -6,7 +6,8 @@ import cors from 'cors'
 import axios from "axios"
 import nodemailer from "nodemailer"
 import dotenv from 'dotenv'
-
+import serverless from 'ServerlessHttp'
+import ServerlessHttp from 'serverless-http';
 
 dotenv.config()
 const app = express();
