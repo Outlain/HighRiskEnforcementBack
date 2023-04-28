@@ -1265,7 +1265,7 @@ export const locations = {
     },
     // Add more location objects for West Palm Beach as needed
   ],
-  "pompano": [
+  "Pompano": [
     {
       name: "Beacon Recovery Center",
       random: false,
@@ -1417,7 +1417,7 @@ export const locations = {
       ],
     },
   ],
-  "orlando": [
+  "Orlando": [
     {
       name: "Cortland Nona",
       random: false,
@@ -1510,7 +1510,7 @@ export const locations = {
     },
   ],
 
-  "riviera": [
+  "Riviera": [
 
     {
       name: "The Reaches Condominium Association",
@@ -1543,7 +1543,7 @@ export const locations = {
       ],
     },
   ],
-  "daniaBeach": [
+  "Dania Beach": [
     {
       name: "Cortland Hollywood",
       random: false,
@@ -1605,7 +1605,7 @@ export const locations = {
       ],
     },
   ],
-  "daytona": [
+  "Daytona": [
     {
       name: "Daytona Gardens Apartments",
       random: false,
@@ -1667,7 +1667,7 @@ export const locations = {
       ],
     },
   ],
-  "fortLauderdale": [
+  "Fort Lauderdale": [
 
     {
       name: "Los Olas by the River",
@@ -1730,7 +1730,7 @@ export const locations = {
       ],
     },
   ],
-  "forPierce": [
+  "Fort Pierce": [
 
     {
       name: "Pine Creek Village Apartments",
@@ -1763,7 +1763,7 @@ export const locations = {
       ],
     },
   ],
-  "gainsville": [
+  "Gainsville": [
 
     {
       name: "Majestic Oaks Apartments",
@@ -1796,7 +1796,7 @@ export const locations = {
       ],
     },
   ],
-  "miami": [
+  "Miami": [
 
     {
       name: "Lincoln Fields Apartments",
@@ -1859,7 +1859,7 @@ export const locations = {
       ],
     },
   ],
-  "ocala": [
+  "Ocala": [
 
     {
       name: "Berkeley Pointe Apartments ",
@@ -1922,7 +1922,7 @@ export const locations = {
       ],
     },
   ],
-  "palmBay": [
+  "PalmBay": [
 
     {
       name: "Hilton/Hyatt Place (Palm Bay)",
@@ -1955,7 +1955,7 @@ export const locations = {
       ],
     },
   ],
-  "pinellas": [
+  "Pinellas": [
 
     {
       name: "Cortland Satori",
@@ -1988,7 +1988,7 @@ export const locations = {
       ],
     },
   ],
-  "plantation": [
+  "Plantation": [
 
     {
       name: "Cortland Satori",
@@ -2021,7 +2021,7 @@ export const locations = {
       ],
     },
   ],
-  "sanford": [
+  "Sanford": [
 
     {
       name: "Seminole Gardens Apartments ",
@@ -2054,7 +2054,7 @@ export const locations = {
       ],
     },
   ],
-  "tallahassee": [
+  "Tallahassee": [
 
     {
       name: "Sunrise Place Apartments ",
@@ -2087,7 +2087,7 @@ export const locations = {
       ],
     },
   ],
-  "westBoca": [
+  "West Boca": [
 
     {
       name: "Chabad of Weston",
