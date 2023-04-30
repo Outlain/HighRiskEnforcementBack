@@ -14,21 +14,36 @@
 //   return schedule;
 // }
 
-function generateSchedule(timeSlots) {
-  const schedule = new Array(24).fill(0);
-  for (let i = 0; i < timeSlots.length; i++) {
-    const hourGuards = timeSlots[i];
-    const hour = i % 24;
-    for (const guard of hourGuards) {
-      const { type, count } = guard;
-      if (schedule[hour]) {
-        schedule[hour][type] += count;
-      } else {
-        schedule[hour] = { [type]: count };
-      }
+// function generateSchedule(timeSlots) {
+//   const schedule = new Array(24).fill(0);
+//   for (let i = 0; i < timeSlots.length; i++) {
+//     const hourGuards = timeSlots[i];
+//     const hour = i % 24;
+//     for (const guard of hourGuards) {
+//       const { type, count } = guard;
+//       if (schedule[hour]) {
+//         schedule[hour][type] += count;
+//       } else {
+//         schedule[hour] = { [type]: count };
+//       }
+//     }
+//   }
+//   return schedule;
+// }
+
+function generateWeeklyShedule(currentHour) {
+  const weeklyScheduleForCurrentHour = new Array(7).fill({});
+  let week = [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+  let currentWeek = 0
+  for (let i=0; 1 < currentHour.length: i++) {
+    if (i % 2 == 0) {
+      currentWeek ++
     }
+  if (currentWeek == 0) {
+
   }
-  return schedule;
+  }
+
 }
 
 export const locations = {
@@ -37,7 +52,7 @@ export const locations = {
       name: "KFC- Blue Heron",
       random: false,
       schedule: [
-        [{ D: 0, G: 1 }], // 12:00am - 1:00am (no guards)
+        [1,0,1,0,1,0,1], // 12:00am - 1:00am (no guards)
         [], // 1:00am - 2:00am (no guards)
         [], // 2:00am - 3:00am (no guards)
         [], // 3:00am - 4:00am (no guards)
@@ -217,7 +232,7 @@ export const locations = {
       name: "Dillman Farms PARKING ENFORCEMENT",
       random: false,
       schedule: [
-        [{ D: 0, G: 1 }], // 12:00am - 1:00am (no guards)
+        [{ Monday: { D: 0, G: 1 }, Tuesday: { D: 0, G: 1}, Wednesday: }], // 12:00am - 1:00am (no guards)
         [{ D: 0, G: 1 }], // 1:00am - 2:00am (no guards)
         [{ D: 0, G: 1 }], // 2:00am - 3:00am (no guards)
         [{ D: 0, G: 1 }], // 3:00am - 4:00am (no guards)
