@@ -31,20 +31,26 @@
 //   return schedule;
 // }
 
-function generateWeeklyShedule(currentHour) {
-  const weeklyScheduleForCurrentHour = new Array(7).fill({});
-  let week = [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
-  let currentWeek = 0
-  for (let i=0; 1 < currentHour.length: i++) {
-    if (i % 2 == 0) {
-      currentWeek ++
+// Monday: { D: 0, G: 1 }, Tuesday: { D: 0, G: 1 }, Wednesday: }
+
+
+function generateWeeklySchedule(currentHour) {
+  const weeklyScheduleForCurrentHour = { something: 'something' };
+  const week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+  let currentWeek = -1;
+  for (let i = 0; i < currentHour.length; i++) {
+    if (i % 2 === 0) {
+      currentWeek++;
+      weeklyScheduleForCurrentHour[week[currentWeek]] = { G: currentHour[i] };
+    } else {
+      weeklyScheduleForCurrentHour[week[currentWeek]].D = currentHour[i];
     }
-  if (currentWeek == 0) {
-
   }
-  }
-
+  return weeklyScheduleForCurrentHour;
 }
+// TESTING THE FUNCTION DEFINED
+// console.log(generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0]))
+
 
 export const locations = {
   "West Palm Beach": [
@@ -52,30 +58,30 @@ export const locations = {
       name: "KFC- Blue Heron",
       random: false,
       schedule: [
-        [1,0,1,0,1,0,1], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [{ D: 0, G: 1 }], // 7:00pm - 8:00pm (no guards)
-        [{ D: 0, G: 1 }], // 8:00pm - 9:00pm (no guards)
-        [{ D: 0, G: 1 }], // 9:00pm - 10:00pm (no guards)
-        [{ D: 0, G: 1 }], // 10:00pm - 11:00pm (no guards)
-        [{ D: 0, G: 1 }], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am (no guards)
       ],
     },
     {
@@ -232,7 +238,7 @@ export const locations = {
       name: "Dillman Farms PARKING ENFORCEMENT",
       random: false,
       schedule: [
-        [{ Monday: { D: 0, G: 1 }, Tuesday: { D: 0, G: 1}, Wednesday: }], // 12:00am - 1:00am (no guards)
+        [], // 12:00am - 1:00am (no guards)
         [{ D: 0, G: 1 }], // 1:00am - 2:00am (no guards)
         [{ D: 0, G: 1 }], // 2:00am - 3:00am (no guards)
         [{ D: 0, G: 1 }], // 3:00am - 4:00am (no guards)
