@@ -35,7 +35,7 @@
 
 
 function generateWeeklySchedule(currentHour) {
-  const weeklyScheduleForCurrentHour = { something: 'something' };
+  const weeklyScheduleForCurrentHour = { set: true };
   const week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
   let currentWeek = -1;
   for (let i = 0; i < currentHour.length; i++) {
@@ -58,1230 +58,1230 @@ export const locations = {
       name: "KFC- Blue Heron",
       random: false,
       schedule: [
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm (no guards)
-        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "KFC- Broadway",
       random: false,
       schedule: [
-        [{ D: 0, G: 1 }], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [{ D: 0, G: 1 }], // 7:00pm - 8:00pm (no guards)
-        [{ D: 0, G: 1 }], // 8:00pm - 9:00pm (no guards)
-        [{ D: 0, G: 1 }], // 9:00pm - 10:00pm (no guards)
-        [{ D: 0, G: 1 }], // 10:00pm - 11:00pm (no guards)
-        [{ D: 0, G: 1 }], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "KFC- Palm Beach",
       random: false,
       schedule: [
-        [{ D: 0, G: 1 }], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [{ D: 0, G: 1 }], // 7:00pm - 8:00pm (no guards)
-        [{ D: 0, G: 1 }], // 8:00pm - 9:00pm (no guards)
-        [{ D: 0, G: 1 }], // 9:00pm - 10:00pm (no guards)
-        [{ D: 0, G: 1 }], // 10:00pm - 11:00pm (no guards)
-        [{ D: 0, G: 1 }], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Homewood/Spring Hill Suites by Hilton",
       random: false,
       schedule: [
-        [{ D: 1, G: 0 }], // 12:00am - 1:00am (no guards)
-        [{ D: 1, G: 0 }], // 1:00am - 2:00am (no guards)
-        [{ D: 1, G: 0 }], // 2:00am - 3:00am (no guards)
-        [{ D: 1, G: 0 }], // 3:00am - 4:00am (no guards)
-        [{ D: 1, G: 0 }], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [{ D: 1, G: 0 }], // 9:00pm - 10:00pm (no guards)
-        [{ D: 1, G: 0 }], // 10:00pm - 11:00pm (no guards)
-        [{ D: 1, G: 0 }], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Holiday Inn",
       random: false,
       schedule: [
-        [{ D: 1, G: 0 }], // 12:00am - 1:00am (no guards)
-        [{ D: 1, G: 0 }], // 1:00am - 2:00am (no guards)
-        [{ D: 1, G: 0 }], // 2:00am - 3:00am (no guards)
-        [{ D: 1, G: 0 }], // 3:00am - 4:00am (no guards)
-        [{ D: 1, G: 0 }], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [{ D: 1, G: 0 }], // 9:00pm - 10:00pm (no guards)
-        [{ D: 1, G: 0 }], // 10:00pm - 11:00pm (no guards)
-        [{ D: 1, G: 0 }], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Grand Villa of Boynton Beach",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Dillman Farms PARKING ENFORCEMENT",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [{ D: 0, G: 1 }], // 1:00am - 2:00am (no guards)
-        [{ D: 0, G: 1 }], // 2:00am - 3:00am (no guards)
-        [{ D: 0, G: 1 }], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Cross Creek Condominiums",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Cortland Portofino Place",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "City Side Condominiums ROVER",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "City Side Condominiums POOL",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "City Side Condominiums GATEHOUSE",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Chabad Palm Beach Island",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Chabad of West Palm Beach",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Chabad of West Boca",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Chabad of Lake Worth",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Chabad of Palm Beach Island",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Casa Del Monte",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "1236 PLAZA",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "300",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Canopy By Hilton",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "LaFonta Apts of Palm Beach Inc",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Lake Mangonia Apartments",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Lakeside Mobile Home Park",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "MAIN OFFICE",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Mar-a-Lago Club",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Mayfair House",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Mt. Zion Missionary Baptist Church",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Palm Beach Mobile Home Park",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Palm Beach Muslim Community",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Pickwick Mobile Home Park ",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Pine Ridge North lll PARKING ENFORCEMENT",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Presidential Golf View",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Sams Market",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "St Andrews Palm Beach",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Taco Bell",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "The Groves of Westlake",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "The Hammocks of Westlake PARKING ENFORCEMENT",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "The Meadows of Westlake PARKING ENFORCEMENT",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Tideline",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "U Gas",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     // Add more location objects for West Palm Beach as needed
@@ -1291,150 +1291,150 @@ export const locations = {
       name: "Beacon Recovery Center",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "City Vista",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Grand Villa of Deerfield Beach",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Parliament House Condominiums ",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "The Wittington Condo",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -1443,90 +1443,90 @@ export const locations = {
       name: "Cortland Nona",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Crossroads Apartments",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Hyatt House Orlando",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -1537,30 +1537,30 @@ export const locations = {
       name: "The Reaches Condominium Association",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -1569,60 +1569,60 @@ export const locations = {
       name: "Cortland Hollywood",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Wyndham Gardens",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -1631,60 +1631,60 @@ export const locations = {
       name: "Daytona Gardens Apartments",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Ormond Beach",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -1694,60 +1694,60 @@ export const locations = {
       name: "Los Olas by the River",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "The Waverly at Los Olos",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -1757,30 +1757,30 @@ export const locations = {
       name: "Pine Creek Village Apartments",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -1790,30 +1790,30 @@ export const locations = {
       name: "Majestic Oaks Apartments",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -1823,60 +1823,60 @@ export const locations = {
       name: "Lincoln Fields Apartments",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Yard 8 Midtown Cortland ",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -1886,60 +1886,60 @@ export const locations = {
       name: "Berkeley Pointe Apartments ",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
     {
       name: "Hickory Knoll",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -1949,30 +1949,30 @@ export const locations = {
       name: "Hilton/Hyatt Place (Palm Bay)",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -1982,30 +1982,30 @@ export const locations = {
       name: "Cortland Satori",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -2015,30 +2015,30 @@ export const locations = {
       name: "Cortland Satori",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -2048,30 +2048,30 @@ export const locations = {
       name: "Seminole Gardens Apartments ",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -2081,30 +2081,30 @@ export const locations = {
       name: "Sunrise Place Apartments ",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
@@ -2114,30 +2114,30 @@ export const locations = {
       name: "Chabad of Weston",
       random: false,
       schedule: [
-        [], // 12:00am - 1:00am (no guards)
-        [], // 1:00am - 2:00am (no guards)
-        [], // 2:00am - 3:00am (no guards)
-        [], // 3:00am - 4:00am (no guards)
-        [], // 4:00am - 5:00am (no guards)
-        [], // 5:00am - 6:00am (no guards)
-        [], // 6:00am - 7:00am (no guards)
-        [], // 7:00am - 8:00am (no guards)
-        [], // 8:00am - 9:00am (no guards)
-        [], // 9:00am - 10:00am (no guards)
-        [], // 10:00am - 11:00am (no guards)
-        [], // 11:00am - 12:00pm (no guards)
-        [], // 12:00pm - 1:00pm (no guards)
-        [], // 1:00pm - 2:00pm (no guards)
-        [], // 2:00pm - 3:00pm (no guards)
-        [], // 3:00pm - 4:00pm (no guards)
-        [], // 4:00pm - 5:00pm (no guards)
-        [], // 5:00pm - 6:00pm (no guards)
-        [], // 6:00pm - 7:00pm (no guards)
-        [], // 7:00pm - 8:00pm (no guards)
-        [], // 8:00pm - 9:00pm (no guards)
-        [], // 9:00pm - 10:00pm (no guards)
-        [], // 10:00pm - 11:00pm (no guards)
-        [], // 11:00pm - 12:00am (no guards)
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00am - 1:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00am - 2:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00am - 3:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00am - 4:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00am - 5:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00am - 6:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00am - 7:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00am - 8:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00am - 9:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00am - 10:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00am - 11:00am
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00am - 12:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 12:00pm - 1:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 1:00pm - 2:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 2:00pm - 3:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 3:00pm - 4:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 4:00pm - 5:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 5:00pm - 6:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 6:00pm - 7:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 7:00pm - 8:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 8:00pm - 9:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 9:00pm - 10:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 10:00pm - 11:00pm
+        [generateWeeklySchedule([1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0])], // 11:00pm - 12:00am
       ],
     },
   ],
