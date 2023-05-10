@@ -2144,6 +2144,9 @@ export const locations = {
   // Add more areas and their location objects as needed
 };
 
+export const { "West Palm Beach": WestPalmBeach, pompano, Orlando, Riviera, "Dania Beach": DaniaBeach, Daytona, "Fort Lauderdale": FortLauderdale, "Fort Pierce": FortPierce, Gainsville, Miami, Ocala, PalmBay, Pinellas, Plantation, Sanford, Tallahassee, "West Boca": WestBoca } = locations
+
+
 export const locationsArray = Object.keys(locations)
 
 
