@@ -2150,9 +2150,6 @@ export const locationsArray = Object.keys(locations)
 
 const everythingLoop = [WestPalmBeach, Pompano, Orlando, Riviera, DaniaBeach, Daytona, FortLauderdale, FortPierce, Gainsville, Miami, Ocala, PalmBay, Pinellas, Plantation, Sanford, Tallahassee, WestBoca]
 
-// const allSites = [WestPalmBeach, pompano, Orlando, Riviera, DaniaBeach, Daytona, FortLauderdale, FortPierce, Gainsville, Miami, Ocala, PalmBay, Pinellas, Plantation, Sanford, Tallahassee, WestBoca]
-
-
 export const allSites = [];
 
 for (let i = 0; i < locationsArray.length; i++) {

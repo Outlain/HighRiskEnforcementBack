@@ -94,6 +94,3 @@ app.get('/WestBoca', (req, res) => {
 app.get('/allSites', (req, res) => {
     res.json(allSites);
 });
-
-// console.log(WestPalmBeach.length)
-// console.log(WestPalmBeach[0].name)
