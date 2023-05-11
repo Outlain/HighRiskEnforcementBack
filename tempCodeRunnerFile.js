@@ -1,1 +1,4 @@
-console.log(generateWeeklySchedule(1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0))
+for (let i = 0; i < locationsArray.length; i++) {
+//   console.log(everythingLoop[i][0])
+
+// }

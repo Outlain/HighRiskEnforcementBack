@@ -2043,7 +2043,6 @@ export const locations = {
     },
   ],
   "Sanford": [
-
     {
       name: "Seminole Gardens Apartments ",
       random: false,
@@ -2144,17 +2143,22 @@ export const locations = {
   // Add more areas and their location objects as needed
 };
 
-export const { "West Palm Beach": WestPalmBeach, pompano, Orlando, Riviera, "Dania Beach": DaniaBeach, Daytona, "Fort Lauderdale": FortLauderdale, "Fort Pierce": FortPierce, Gainsville, Miami, Ocala, PalmBay, Pinellas, Plantation, Sanford, Tallahassee, "West Boca": WestBoca } = locations
+export const { "West Palm Beach": WestPalmBeach, Pompano, Orlando, Riviera, "Dania Beach": DaniaBeach, Daytona, "Fort Lauderdale": FortLauderdale, "Fort Pierce": FortPierce, Gainsville, Miami, Ocala, PalmBay, Pinellas, Plantation, Sanford, Tallahassee, "West Boca": WestBoca } = locations
 
 
 export const locationsArray = Object.keys(locations)
 
+const everythingLoop = [WestPalmBeach, Pompano, Orlando, Riviera, DaniaBeach, Daytona, FortLauderdale, FortPierce, Gainsville, Miami, Ocala, PalmBay, Pinellas, Plantation, Sanford, Tallahassee, WestBoca]
 
 // const allSites = [WestPalmBeach, pompano, Orlando, Riviera, DaniaBeach, Daytona, FortLauderdale, FortPierce, Gainsville, Miami, Ocala, PalmBay, Pinellas, Plantation, Sanford, Tallahassee, WestBoca]
 
 
-// const allSites = [];
+const allSites = [];
 
-// for (let i = 0; i < locations.Keys.length; i++ ) {
+for (let i = 0; i < locationsArray.length; i++) {
+  for (let j = 0; j < everythingLoop[i].length; j++) {
+    allSites.push(everythingLoop[i][j].name)
+  }
+}
 
-// }
+console.log(allSites)
