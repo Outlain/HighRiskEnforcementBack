@@ -2152,8 +2152,9 @@ export const locationsArray = Object.keys(locations)
 
 // const allSites = [WestPalmBeach, pompano, Orlando, Riviera, DaniaBeach, Daytona, FortLauderdale, FortPierce, Gainsville, Miami, Ocala, PalmBay, Pinellas, Plantation, Sanford, Tallahassee, WestBoca]
 
-const allSites = [];
 
-for (let i = 0; i < locations.Keys.length; i++ ) {
-  
-}
+// const allSites = [];
+
+// for (let i = 0; i < locations.Keys.length; i++ ) {
+
+// }
