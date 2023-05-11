@@ -1,6 +1,7 @@
 import { locations } from './locationObjects.js'
 import { locationsArray } from './locationObjects.js'
-import { WestPalmBeach, pompano, Orlando, Riviera, DaniaBeach, Daytona, FortLauderdale, FortPierce, Gainsville, Miami, Ocala, PalmBay, Pinellas, Plantation, Sanford, Tallahassee, WestBoca } from './locationObjects.js'
+import { WestPalmBeach, Pompano, Orlando, Riviera, DaniaBeach, Daytona, FortLauderdale, FortPierce, Gainsville, Miami, Ocala, PalmBay, Pinellas, Plantation, Sanford, Tallahassee, WestBoca } from './locationObjects.js'
+import { allSites } from './locationObjects.js'
 
 const PORT = process.env.PORT || 8005;
 import express from 'express'
@@ -90,6 +91,9 @@ app.get('/WestBoca', (req, res) => {
     res.json(WestBoca);
 });
 
+app.get('/allSites', (req, res) => {
+    res.json(allSites);
+});
 
 // console.log(WestPalmBeach.length)
 // console.log(WestPalmBeach[0].name)

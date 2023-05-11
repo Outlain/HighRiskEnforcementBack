@@ -2153,7 +2153,7 @@ const everythingLoop = [WestPalmBeach, Pompano, Orlando, Riviera, DaniaBeach, Da
 // const allSites = [WestPalmBeach, pompano, Orlando, Riviera, DaniaBeach, Daytona, FortLauderdale, FortPierce, Gainsville, Miami, Ocala, PalmBay, Pinellas, Plantation, Sanford, Tallahassee, WestBoca]
 
 
-const allSites = [];
+export const allSites = [];
 
 for (let i = 0; i < locationsArray.length; i++) {
   for (let j = 0; j < everythingLoop[i].length; j++) {
@@ -2161,4 +2161,3 @@ for (let i = 0; i < locationsArray.length; i++) {
   }
 }
 
-console.log(allSites)
