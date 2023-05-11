@@ -28,7 +28,7 @@ app.get('/WestPalmBeach', (req, res) => {
 });
 
 app.get('/pompano', (req, res) => {
-    res.json(pompano);
+    res.json(Pompano);
 });
 
 app.get('/Orlando', (req, res) => {
