@@ -89,3 +89,7 @@ app.get('/Tallahassee', (req, res) => {
 app.get('/WestBoca', (req, res) => {
     res.json(WestBoca);
 });
+
+
+// console.log(WestPalmBeach.length)
+// console.log(WestPalmBeach[0].name)
